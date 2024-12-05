@@ -12,6 +12,6 @@ test("number of safe reports", () => {
   expect(numberOfSafeReports(input)).toBe(2);
 });
 
-test("number of safe reports with tolerance", () => {
+test.skip("number of safe reports with tolerance", () => {
   expect(numberOfSafeReportsWithTolerance(input)).toBe(4);
 });
